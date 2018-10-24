@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>我改了tab标签的标题</h3>
+        <h3>我是feature_20181024分支的标题</h3>
         <tabs :class="[`is-${position}`]">
             <tab-pane label="用户管理" name="first" zyn="zhangzhang">item1</tab-pane>
             <!-- <tab-pane>item1</tab-pane>
