@@ -1,18 +1,12 @@
 <template>
   <div id="app">
-    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  mounted() {
-    console.log('====================this', this)
-    console.log('========================this.prototype',this.prototype)
-    console.log('=====================this._l', this._l)
-  }
+  name: 'App'
 }
 </script>
 

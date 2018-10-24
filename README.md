@@ -19,3 +19,11 @@ npm run build --report
 ```
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+### 别名
+
+1. `@` 指 `tabs\src`
+
+### 工程页面
+
+每增加一个页面在`\tabs\src\router\index.js`增加对应路径
