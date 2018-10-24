@@ -7,7 +7,12 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  mounted() {
+    console.log('====================this', this)
+    console.log('========================this.prototype',this.prototype)
+    console.log('=====================this._l', this._l)
+  }
 }
 </script>
 
